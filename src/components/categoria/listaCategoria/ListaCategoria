@@ -1,5 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import Categoria from '../../../models/Categoria';
+import CardCategoria from './components/categoria/cardCategoria/CardCategoria'
+import { useNavigate } from "react-router-dom";
 
 function ListaCategoria() {
 
@@ -52,7 +54,7 @@ function ListaCategoria() {
 
                     {categoria.map((categoria) => (
                         <>
-                            <Cardcategoria key={categoria.id} categoria={categoria} />
+                            <CardCategoria key={categoria.id} categoria={categoria} />
                         </>
                     ))}
 
@@ -65,4 +67,4 @@ function ListaCategoria() {
 )
 }
 
-export default Listacategoria;
+export default ListaCategoria;
