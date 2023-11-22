@@ -12,22 +12,47 @@ function Home() {
                             Encontre aqui seu medicamento.
                         </p>
 
-                        <div className="flex justify-around gap-4">
-                            <div className='rounded text-white 
-                                            border-white border-solid border-2 py-2 px-4'
-                                >
-                                Novo Produto
+
+
+                        <div className="grid justify-end">
+                            <div className="
+                    grid
+                    grid-cols-[1fr_2fr] 
+                    gap-5 
+                    bg-slate-400
+                    mx-7 
+                    my-7 
+                    px-5 
+                    py-5 
+                    max-w-4xl 
+                    rounded-2xl 
+                    border 
+                    shadow-md 
+                    shadow-slate-400
+                ">
+                                <div>
+                                    <img className="max-w-xs" src="https://images.vexels.com/media/users/3/208407/isolated/preview/7ad2615dc81ce96bf6618e9a48ee5b3b-icone-de-sacola-de-farmacia.png" alt="Imagem" />
+                                </div>
+                                <div>
+                                    <h2 className="
+                            text-center 
+                            text-4xl 
+                            py-4 
+                            font-bold
+                            text-slate-900
+                        ">Novo Produto</h2>
+                                    <p className="
+                            
+                            text-xl 
+                            py-4
+                            text-slate-900
+                        ">Cadastre um novo produto cliando aqui.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div className="flex justify-center ">
-                        <img
-                            src="https://images.vexels.com/media/users/3/208407/isolated/preview/7ad2615dc81ce96bf6618e9a48ee5b3b-icone-de-sacola-de-farmacia.png"
-                            alt="Imagem Página Home"
-                            className='w-2/3'
-                        />
-                    </div>
+                   
                 </div>
             </div>
         </>
